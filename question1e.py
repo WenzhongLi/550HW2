@@ -23,6 +23,7 @@ def question_a():
 
     # A = np.array([[1, 2, 3], [4, 5, 6]])
     matrix_m = np.array([[1, 2], [2, 1], [3, 4], [4, 3]])
+    print(matrix_m[1])
     # A = np.array([[1, 2, 3, 4], [2, 1, 4, 3]])
     print(matrix_m)
     # array([[1, 2, 3],
@@ -52,4 +53,5 @@ def question_a():
 
 
 if __name__ == "__main__":
+    question_a()
     question_b()
