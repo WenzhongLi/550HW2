@@ -49,8 +49,20 @@ def page_rank():
     for i in r:
         sum += i
     print(sum)
+    t5 = r.argsort()[:5]
+    b5 = r.argsort()[-5:][::-1]
 
-    print(r.argsort()[:3])
+    print(t5)
+    print(b5)
+    for i in t5:
+        print(i+1, r[i])
+
+    for i in b5:
+        print(i+1, r[i])
+
+
+    # print(r.argsort()[:5])
+    # print(r.argsort()[-5:])
 
 
 
